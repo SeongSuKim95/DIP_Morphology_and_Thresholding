@@ -206,7 +206,6 @@
   ```
   
 * Color Transform
-  ![RGB_to_HSI](https://user-images.githubusercontent.com/62092317/108153344-52615480-711e-11eb-92ce-e75d56e27ddd.png)
   * RGB_to_HIS
    ```python 
    def RGB_to_HIS(img):
@@ -233,7 +232,6 @@
         return result
    ```
   * RGB_to_Ycbcr
-   ![RGB_to_Ycbcr](https://user-images.githubusercontent.com/62092317/108153346-542b1800-711e-11eb-8776-01c3af86fd33.png)
    ```python
    def RGB_to_Ycbcr(image):
         img=(image.astype(float)/255)
@@ -275,7 +273,6 @@
    ```
    
    * RGB_to_CMY
-   ![RGB_to_CMY](https://user-images.githubusercontent.com/62092317/108153343-51302780-711e-11eb-8dc4-ea0e324a3f89.png)
    ```python
    def RGB_to_CMY(image):
         img = (image.astype(float) / 255)
