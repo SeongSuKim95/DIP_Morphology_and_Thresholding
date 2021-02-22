@@ -1,6 +1,7 @@
 
 # DIP_Morphology & Thresholding
 ## This repository is python code of "Digital Image Processing, Rafael C.Gonzalez, 3rd edition"
+### You can see more details in [PDF](https://github.com/SeongSuKim95/DIP_Morphology_and_Thresholding/blob/master/Thresholidng_and_Morphology.pdf)
 
 * Thresholding
   * Histogram
