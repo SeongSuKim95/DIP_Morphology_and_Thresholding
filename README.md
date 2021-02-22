@@ -1,15 +1,11 @@
 
-# DIP_AffineTransform & Color Transform
+# DIP_Morphology & Thresholding
 ## This repository is python code of "Digital Image Processing, Rafael C.Gonzalez, 3rd edition"
 
-* Intensity Transformation
-  * Negative transformation
-     ```python
-     def NegativeTransformation(img):
-         negative_transform = np.array(255-img,dtype='uint8')
-         return negative_transform
-     ```
-  * Gamma transformation
+* Thresholding
+  * Effect of noise ( histogram )
+    ![Effect_of_noise](https://user-images.githubusercontent.com/62092317/108644397-1baa8600-74f2-11eb-9950-bc8ca66f6156.PNG)
+  * Gamma transfor
      ```python
       def GammaTransformation(img,gamma):
           c=1
