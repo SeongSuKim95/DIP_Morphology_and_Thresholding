@@ -136,7 +136,7 @@
       ```
 
   * Multiple Thresholding
-
+    ![Multiple_Thresholding](https://user-images.githubusercontent.com/62092317/108645736-261b4e80-74f7-11eb-9f9f-90cfb5abaf31.PNG)
     ```python
     def Multiple_threshold(img):
 
